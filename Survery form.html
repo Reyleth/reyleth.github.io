@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width-device-width">
+    <title>FFXIV Survey</title>
+    <link rel="stylesheet" href="./styles.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+<h1 id="title">FFXIV Survey</h1>
+<p id="description">Thank you for the taking the time to fill out this survey</p>
+
+<form id="survey-form" method="post">
+    <div class="input-elements">
+        <div id="one">
+    <label id="name-label">
+        Name:
+        <input placeholder="Name" id="name" type="text" required/>
+    </label>
+    </div>
+    <div id="two">
+    <label id="email-label">
+        Email:
+        <input placeholder="Email" id="email" type="email" required/>
+    </label> 
+     </div>
+     <div id="three">  
+    <label id="number-label">
+        Age:    
+        <input placeholder="Age" id="number" min="12" max="120" type="number" required/>
+    </label>
+     </div> 
+   </div>
+   <div class="input-elements">
+    <label id="select-label">
+        Who's your favourite Scion?   
+        <select id="dropdown">
+            <option>Thancred</option>
+            <option>Yshtola</option>
+            <option>Urianger</option>
+        </select>
+    </label>
+   </div>
+<div class="input-elements">
+    <label>Have you finsihed the MSQ?</label>
+    <div>
+    <label><input type="radio" name="MSQ-completion" value="Yes"/>Yes</label>
+   </div>
+   <div>
+    <label><input type="radio" name="MSQ-completion" value="No"/>No</label>
+   </div>
+</div>
+<div class="input-elements">
+        <label>Which system do you play on?</label>
+        <div>
+        <label><input type="checkbox" name="user-system" value="PS4"/>PS4</label>
+       </div>
+       <div>
+        <label><input type="checkbox" name="user-system" value="PS5"/>PS5</label>
+       </div>
+       <div>
+        <label><input type="checkbox" name="user-system" value="PC"/>PC</label>
+       </div>
+       <div>
+        <label><input type="checkbox" name="user-system" value="Xbox"/>Xbox</label>
+       </div>
+</div>
+<div class="input-elements">
+    <label>Additional comments</label>
+    <textarea type="text">
+       
+    </textarea>
+</div>
+<div class="input-elements">
+    <button type="submit" id="submit">
+    Submit
+    </button>
+</div>
+</form>
+
+
+</body>
+</html>
