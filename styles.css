@@ -23,6 +23,10 @@ h1, h2 {
     background-color: #a7a9be;
 }
 
+div {
+    border-top: 3px solid black;
+}
+
 footer {
     border-top: 3px solid black;
     font-size: 25px;
